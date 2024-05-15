@@ -1,7 +1,7 @@
 let http = require("http");
 let fs = require("fs");
 
-let html = fs.readFileSync("index.html", "utf-8");
+let html = fs.readFileSync("./pages/index.html", "utf-8");
 
 let server = http.createServer((aRequest, aRespons) => {
   aRespons.write(html);
