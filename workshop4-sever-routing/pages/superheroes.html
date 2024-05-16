@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Superhero Info</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        main {
-            display: flex;
-            justify-content: center;
-        }
-        .superhero-container {
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            padding: 20px;
-            max-width: 600px;
-            width: 100%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .superhero-container h2 {
-            margin-top: 0;
-            color: #333;
-        }
-        .superhero-container p {
-            margin: 10px 0;
-            color: #555;
-        }
-        .superhero-container p span {
-            font-weight: bold;
-            color: #333;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .superhero-container {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        max-width: 450px;
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .superhero-container h2 {
+        margin-top: 0;
+        color: #333;
+      }
+      .superhero-container p {
+        margin: 10px 0;
+        color: #555;
+      }
+      .superhero-container p span {
+        font-weight: bold;
+        color: #333;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Superhero Information</h1>
+      <h1>Superhero Information</h1>
     </header>
-    <main>
-        {{%CONTENT%}}
-    </main>
-</body>
+    <main>{{%CONTENT%}}</main>
+  </body>
 </html>
