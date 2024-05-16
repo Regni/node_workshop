@@ -1,142 +1,181 @@
 [
-  {
-      "superhero":"Batman", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Bruce Wayne",
-      "first_appearance":"Detective Comics #27",
-      "characters":"Bruce Wayne"
-  },
-  {
-      "superhero":"Superman", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Kal-El",
-      "first_appearance":"Action Comics #1",
-      "characters":"Kal-El"
-  },
-  {
-      "superhero":"Flash", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Jay Garrick",
-      "first_appearance":"Flash Comics #1",
-      "characters":"Jay Garrick, Barry Allen, Wally West, Bart Allen"
-  },
-  {
-      "superhero":"Green Lantern", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Alan Scott",
-      "first_appearance":"All-American Comics #16",
-      "characters":"Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
-  },
-  {
-      "superhero":"Green Arrow", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Oliver Queen",
-      "first_appearance":"More Fun Comics #73",
-      "characters":"Oliver Queen"
-  },
-  {
-      "superhero":"Wonder Woman", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Princess Diana",
-      "first_appearance":"All Star Comics #8",
-      "characters":"Princess Diana"
-  },
-  {
-      "superhero":"Martian Manhunter", 
-      "publisher":"DC Comics", 
-      "alter_ego":"J'onn J'onzz",
-      "first_appearance":"Detective Comics #225",
-      "characters":"Martian Manhunter"
-  },
-  {
-      "superhero":"Robin/Nightwing", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Dick Grayson",
-      "first_appearance":"Detective Comics #38",
-      "characters":"Dick Grayson"
-  },
-  {
-      "superhero":"Blue Beetle", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Dan Garret",
-      "first_appearance":"Mystery Men Comics #1",
-      "characters":"Dan Garret, Ted Kord, Jaime Reyes"
-  },
-  {
-      "superhero":"Black Canary", 
-      "publisher":"DC Comics", 
-      "alter_ego":"Dinah Drake",
-      "first_appearance":"Flash Comics #86",
-      "characters":"Dinah Drake, Dinah Lance"
-  },
-  {
-      "superhero":"Spider Man", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Peter Parker",
-      "first_appearance":"Amazing Fantasy #15",
-      "characters":"Peter Parker"
-  },
-  {
-      "superhero":"Captain America", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Steve Rogers",
-      "first_appearance":"Captain America Comics #1",
-      "characters":"Steve Rogers"
-  },
-  {
-      "superhero":"Iron Man", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Tony Stark",
-      "first_appearance":"Tales of Suspense #39",
-      "characters":"Tony Stark"
-  },
-  {
-      "superhero":"Thor", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Thor Odinson",
-      "first_appearance":"Journey into Myster #83",
-      "characters":"Thor Odinson"
-  },
-  {
-      "superhero":"Hulk", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Bruce Banner",
-      "first_appearance":"The Incredible Hulk #1",
-      "characters":"Bruce Banner"
-  },
-  {
-      "superhero":"Wolverine", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"James Howlett",
-      "first_appearance":"The Incredible Hulk #180",
-      "characters":"James Howlett"
-  },
-  {
-      "superhero":"Daredevil", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Matthew Michael Murdock",
-      "first_appearance":"Daredevil #1",
-      "characters":"Matthew Michael Murdock"
-  },
-  {
-      "superhero":"Hawkeye", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Clinton Francis Barton",
-      "first_appearance":"Tales of Suspense #57",
-      "characters":"Clinton Francis Barton"
-  },
-  {
-      "superhero":"Cyclops", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Scott Summers",
-      "first_appearance":"X-Men #1",
-      "characters":"Scott Summers"
-  },
-  {
-      "superhero":"Silver Surfer", 
-      "publisher":"Marvel Comics", 
-      "alter_ego":"Norrin Radd",
-      "first_appearance":"The Fantastic Four #48",
-      "characters":"Norrin Radd"
-  }
-]
+    {
+      "id": 0,
+      "superhero": "Batman",
+      "publisher": "DC Comics",
+      "alter_ego": "Bruce Wayne",
+      "first_appearance": "Detective Comics #27",
+      "characters": "Bruce Wayne",
+      "bio": "Bruce Wayne, a wealthy playboy, dedicates his life to fighting crime as Batman after witnessing his parents' murder.",
+      "powers": "Peak human conditioning, martial arts, detective skills, high-tech gadgets.",
+      "allies": "Robin, Alfred Pennyworth, Commissioner Gordon, Justice League.",
+      "enemies": "Joker, Two-Face, Riddler, Bane."
+    },
+    {
+      "id": 1,
+      "superhero": "Superman",
+      "publisher": "DC Comics",
+      "alter_ego": "Kal-El",
+      "first_appearance": "Action Comics #1",
+      "characters": "Kal-El",
+      "bio": "Kal-El, last son of Krypton, becomes Earth's greatest hero, Superman, using his incredible powers for good.",
+      "powers": "Super strength, flight, invulnerability, heat vision, x-ray vision.",
+      "allies": "Lois Lane, Supergirl, Justice League.",
+      "enemies": "Lex Luthor, General Zod, Doomsday."
+    },
+    {
+      "id": 2,
+      "superhero": "Flash",
+      "publisher": "DC Comics",
+      "alter_ego": "Jay Garrick",
+      "first_appearance": "Flash Comics #1",
+      "characters": "Jay Garrick, Barry Allen, Wally West, Bart Allen",
+      "bio": "The Flash, fastest man alive, uses his speed to fight crime and protect Central City.",
+      "powers": "Super speed, time travel, intangibility, superhuman reflexes.",
+      "allies": "Kid Flash, Iris West, Justice League.",
+      "enemies": "Reverse-Flash, Captain Cold, Gorilla Grodd."
+    },
+    {
+      "id": 3,
+      "superhero": "Green Lantern",
+      "publisher": "DC Comics",
+      "alter_ego": "Alan Scott",
+      "first_appearance": "All-American Comics #16",
+      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Rayner, Jade, Sinestro, Simon Baz",
+      "bio": "Green Lanterns wield power rings to protect the universe, with Hal Jordan being one of the most notable.",
+      "powers": "Power ring grants flight, energy constructs, force fields.",
+      "allies": "Green Lantern Corps, Justice League.",
+      "enemies": "Sinestro, Atrocitus, Parallax."
+    },
+    {
+      "id": 4,
+      "superhero": "Green Arrow",
+      "publisher": "DC Comics",
+      "alter_ego": "Oliver Queen",
+      "first_appearance": "More Fun Comics #73",
+      "characters": "Oliver Queen",
+      "bio": "Oliver Queen, a billionaire with expert archery skills, fights crime as Green Arrow.",
+      "powers": "Archery, martial arts, peak human conditioning.",
+      "allies": "Black Canary, Speedy, Justice League.",
+      "enemies": "Merlyn, Deathstroke, Count Vertigo."
+    },
+    {
+      "id": 5,
+      "superhero": "Wonder Woman",
+      "publisher": "DC Comics",
+      "alter_ego": "Princess Diana",
+      "first_appearance": "All Star Comics #8",
+      "characters": "Princess Diana",
+      "bio": "Diana, an Amazonian princess, becomes Wonder Woman, champion of justice and equality.",
+      "powers": "Super strength, flight, combat skills, magic weapons.",
+      "allies": "Steve Trevor, Justice League.",
+      "enemies": "Ares, Cheetah, Circe."
+    },
+    {
+      "id": 6,
+      "superhero": "Martian Manhunter",
+      "publisher": "DC Comics",
+      "alter_ego": "J'onn J'onzz",
+      "first_appearance": "Detective Comics #225",
+      "characters": "Martian Manhunter",
+      "bio": "J'onn J'onzz, last of the Martians, uses his powers to fight for justice on Earth.",
+      "powers": "Shape-shifting, telepathy, super strength, invisibility.",
+      "allies": "Justice League.",
+      "enemies": "Ma'alefa'ak, White Martians."
+    },
+    {
+      "id": 7,
+      "superhero": "Robin/Nightwing",
+      "publisher": "DC Comics",
+      "alter_ego": "Dick Grayson",
+      "first_appearance": "Detective Comics #38",
+      "characters": "Dick Grayson",
+      "bio": "Dick Grayson, former acrobat, becomes Robin and later Nightwing, protector of Blüdhaven.",
+      "powers": "Expert acrobat, martial artist, detective skills.",
+      "allies": "Batman, Teen Titans.",
+      "enemies": "Deathstroke, Joker, Blockbuster."
+    },
+    {
+      "id": 8,
+      "superhero": "Blue Beetle",
+      "publisher": "DC Comics",
+      "alter_ego": "Dan Garret",
+      "first_appearance": "Mystery Men Comics #1",
+      "characters": "Dan Garret, Ted Kord, Jaime Reyes",
+      "bio": "Blue Beetle uses a powerful scarab to fight crime, with Jaime Reyes being the current bearer.",
+      "powers": "Alien armor grants flight, energy blasts, enhanced strength.",
+      "allies": "Booster Gold, Teen Titans.",
+      "enemies": "Black Beetle, La Dama."
+    },
+    {
+      "id": 9,
+      "superhero": "Black Canary",
+      "publisher": "DC Comics",
+      "alter_ego": "Dinah Drake",
+      "first_appearance": "Flash Comics #86",
+      "characters": "Dinah Drake, Dinah Lance",
+      "bio": "Black Canary uses her sonic scream and martial arts skills to fight crime.",
+      "powers": "Canary Cry (sonic scream), expert martial artist.",
+      "allies": "Green Arrow, Justice League.",
+      "enemies": "Vertigo, Black Mask."
+    },
+    {
+      "id": 10,
+      "superhero": "Spider Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Peter Parker",
+      "first_appearance": "Amazing Fantasy #15",
+      "characters": "Peter Parker",
+      "bio": "Peter Parker, a young photographer, gains spider-like abilities and becomes Spider-Man.",
+      "powers": "Wall-crawling, super strength, spider-sense, web-shooting.",
+      "allies": "Mary Jane Watson, Aunt May, Avengers.",
+      "enemies": "Green Goblin, Doctor Octopus, Venom."
+    },
+    {
+      "id": 11,
+      "superhero": "Captain America",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Steve Rogers",
+      "first_appearance": "Captain America Comics #1",
+      "characters": "Steve Rogers",
+      "bio": "Steve Rogers, a super-soldier from World War II, fights for justice as Captain America.",
+      "powers": "Enhanced strength, agility, expert tactician, unbreakable shield.",
+      "allies": "Bucky Barnes, Avengers.",
+      "enemies": "Red Skull, Hydra."
+    },
+    {
+      "id": 12,
+      "superhero": "Iron Man",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Tony Stark",
+      "first_appearance": "Tales of Suspense #39",
+      "characters": "Tony Stark",
+      "bio": "Tony Stark, a billionaire inventor, creates an advanced suit of armor to become Iron Man.",
+      "powers": "Powered armor suit grants flight, super strength, advanced weaponry.",
+      "allies": "Pepper Potts, Avengers.",
+      "enemies": "Mandarin, Ultron."
+    },
+    {
+      "id": 13,
+      "superhero": "Thor",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Thor Odinson",
+      "first_appearance": "Journey into Mystery #83",
+      "characters": "Thor Odinson",
+      "bio": "Thor, the Norse god of thunder, wields his hammer Mjolnir to protect both Asgard and Earth.",
+      "powers": "Godly strength, control over thunder, flight with Mjolnir.",
+      "allies": "Loki, Avengers.",
+      "enemies": "Loki, Hela."
+    },
+    {
+      "id": 14,
+      "superhero": "Hulk",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Bruce Banner",
+      "first_appearance": "The Incredible Hulk #1",
+      "characters": "Bruce Banner",
+      "bio": "Bruce Banner transforms into the Hulk, a green behemoth with immense strength, when angered.",
+      "powers": "Superhuman strength, durability, regenerative healing.",
+      "allies": "Avengers, Betty Ross.",
+      "enemies": "Abomination, Leader."
+    }]

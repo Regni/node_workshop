@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{%SUPERHERO_NAME%}} - Superhero Details</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 800px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .hero-header {
+        text-align: center;
+      }
+      .hero-header img {
+        max-width: 150px;
+        border-radius: 50%;
+      }
+      .hero-details {
+        margin-top: 20px;
+      }
+      .hero-details h2 {
+        margin-top: 0;
+      }
+      .hero-details p {
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-header">
+        <img src="{{%SUPERHERO_IMAGE_URL%}}" alt="{{%IMG-ALT-TEXT%}}" />
+        <h1>{{%superName%}}</h1>
+        <h3>{{%superAlias%}}</h3>
+      </div>
+      <div class="hero-details">
+        <h2>Biography</h2>
+        <p>{{%SUPERHERO_BIO%}}</p>
+
+        <h2>Powers</h2>
+        <p>{{%SUPERHERO_POWERS%}}</p>
+
+        <h2>Allies</h2>
+        <p>{{%SUPERHERO_ALLIES%}}</p>
+
+        <h2>Enemies</h2>
+        <p>{{%SUPERHERO_ENEMIES%}}</p>
+      </div>
+
+      <a href="/superheroes"><button>back to super heroes</button></a>
+    </div>
+  </body>
+</html>
